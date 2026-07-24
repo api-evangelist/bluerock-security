@@ -1,0 +1,32 @@
+generated: '2026-07-18'
+method: searched
+source: https://github.com/bluerock-io/bluerock#readme
+name: bluerock
+summary: >-
+  First-party CLI for the BlueRock runtime security sensor. Wraps a Python
+  process at startup — before user code runs — and emits structured NDJSON
+  events for security-sensitive operations (MCP tool calls, imports, subprocess
+  execution, network calls) with no code changes.
+install:
+- registry: pypi
+  command: pip install bluerock[oss]
+invocation: python -m bluerock
+flags:
+- flag: --oss
+  description: Run in open-source (OSS) mode.
+- flag: --cfg-dir
+  description: Path to the sensor configuration directory (e.g. ~/.bluerock).
+- flag: --transport
+  description: Transport for the monitored MCP example (e.g. stdio).
+flows:
+- name: Monitor a Python script
+  example: python -m bluerock --oss --cfg-dir ~/.bluerock your_script.py
+- name: Monitor an MCP client/server session
+  example: python -m bluerock --oss mcp_client.py --transport stdio
+- name: Inspect captured events
+  example: cat ~/.bluerock/event-spool/python-*.ndjson | jq .event
+notes: >-
+  Configuration is a JSON file in the config dir, e.g.
+  {"enable": true, "mcp": true, "imports": true}. The self-hosted runtime also
+  ships a bluerockd system daemon configured via /etc/bluerock/bluerockd.toml
+  (Runtime, Policy, and OTLP sections), documented in the deployment guides.

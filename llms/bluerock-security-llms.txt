@@ -1,0 +1,51 @@
+# Documentation
+
+## BlueRock AWS CloudFormation Deployment - v1.2
+
+- [Introduction to BlueRock](https://docs.bluerock.io/getting-started-with-bluerock/introduction-to-bluerock.md)
+- [Quick Start](https://docs.bluerock.io/getting-started-with-bluerock/quick-start.md)
+- [BlueRock Secure MCP](https://docs.bluerock.io/bluerock-secure-mcp/bluerock-secure-mcp.md)
+- [MCP Sensor Observability](https://docs.bluerock.io/bluerock-secure-mcp/mcp-sensor-observability.md)
+- [Understanding MCP Policies](https://docs.bluerock.io/bluerock-secure-mcp/understanding-mcp-policies.md)
+- [BlueRock Sandbox](https://docs.bluerock.io/bluerock-sandbox/bluerock-sandbox.md)
+- [BlueRock Sandbox Observability](https://docs.bluerock.io/bluerock-sandbox/bluerock-sandbox-observability.md)
+- [Understanding BlueRock Sandbox Policies](https://docs.bluerock.io/bluerock-sandbox/understanding-bluerock-sandbox-policies.md)
+- [Policy Builder](https://docs.bluerock.io/policy-configuration/policy-builder.md)
+- [Policy Structure](https://docs.bluerock.io/policy-configuration/policy-structure.md)
+- [Policy Life cycle](https://docs.bluerock.io/policy-configuration/policy-life-cycle.md)
+- [LangChain](https://docs.bluerock.io/agent-frameworks-integration/langchain.md)
+- [CrewAI](https://docs.bluerock.io/agent-frameworks-integration/crewai.md)
+- [AWS Deployments](https://docs.bluerock.io/deployment-guides/aws-deployments.md)
+- [AWS Deployment Using Terraform Template](https://docs.bluerock.io/deployment-guides/aws-deployments/aws-deployment-using-terraform-template.md)
+- [AWS Deployment with Cloud Formation Template](https://docs.bluerock.io/deployment-guides/aws-deployments/aws-deployment-with-cloud-formation-template.md)
+- [GCP Deployments](https://docs.bluerock.io/deployment-guides/gcp-deployments.md)
+- [GCP Deployment with CLI](https://docs.bluerock.io/deployment-guides/gcp-deployments/gcp-deployment-with-cli.md)
+- [GCP Deployment with Terraform](https://docs.bluerock.io/deployment-guides/gcp-deployments/gcp-deployment-with-terraform.md)
+- [Azure Deployments](https://docs.bluerock.io/deployment-guides/azure-deployments.md)
+- [Azure Deployment with CLI](https://docs.bluerock.io/deployment-guides/azure-deployments/azure-deployment-with-cli.md)
+- [Azure Deployment with Terraform](https://docs.bluerock.io/deployment-guides/azure-deployments/azure-deployment-with-terraform.md)
+- [BluerockCCPD Platform Overview](https://docs.bluerock.io/bluerock-dashboard/bluerockccpd-platform-overview.md)
+- [Bluerock Dashboard User Guide](https://docs.bluerock.io/bluerock-dashboard/bluerock-dashboard-user-guide.md)
+- [Bluedev Identity Deployment Kit](https://docs.bluerock.io/bluedev-container/bluedev-identity-deployment-kit.md)
+- [Bluedev/X - VS Code extension](https://docs.bluerock.io/bluedev-container/bluedev-x-vs-code-extension.md)
+- [BlueRock Bridge](https://docs.bluerock.io/bluedev-container/bluerock-bridge.md)
+- [BlueRock 26.23.0](https://docs.bluerock.io/release-notes/bluerock-26.23.0.md)
+- [Licensing](https://docs.bluerock.io/release-notes/bluerock-26.23.0/licensing.md)
+- [BlueRock 26.08.0](https://docs.bluerock.io/release-notes/bluerock-26.08.0.md)
+- [Appendix](https://docs.bluerock.io/glossary/appendix.md)
+
+
+---
+
+# Agent Instructions
+This documentation is published with GitBook. GitBook is the documentation platform designed so that both humans and AI agents can read, navigate, and reason over technical content effectively. Learn more at gitbook.com.
+
+## Querying This Documentation
+If you need additional information, you can query the documentation dynamically by asking a question.
+Perform an HTTP GET request on a page URL with the `ask` query parameter:
+```
+GET https://docs.bluerock.io/getting-started-with-bluerock/introduction-to-bluerock.md?ask=<question>
+```
+The question should be specific, self-contained, and written in natural language.
+The response will contain a direct answer to the question and relevant excerpts and sources from the documentation.
+Use this mechanism when the answer is not explicitly present in the current page, you need clarification or additional context, or you want to retrieve related documentation sections.

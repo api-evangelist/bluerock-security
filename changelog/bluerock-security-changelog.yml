@@ -1,0 +1,30 @@
+generated: '2026-07-18'
+method: searched
+source: https://docs.bluerock.io/release-notes/bluerock-26.23.0
+scheme: calver-like
+current_version: 26.23.0
+notes: >-
+  BlueRock publishes dated release notes in its documentation. Release dates are
+  not populated in the revision-history tables at time of capture; versions and
+  highlights are recorded from the published release-notes pages. Package-level
+  releases for the open-source sensor are tracked separately at
+  https://github.com/bluerock-io/bluerock/releases (PyPI bluerock 0.2.0).
+entries:
+- version: 26.23.0
+  date: null
+  url: https://docs.bluerock.io/release-notes/bluerock-26.23.0
+  highlights:
+  - Simplified BlueRock Runtime deployment; runs as the bluerockd system daemon
+    with centralized config in /etc/bluerock/bluerockd.toml (Runtime, Policy,
+    OTLP sections); policy blobs downloadable and verifiable with public keys.
+  - Sandbox networking and security improvements — containerd-shim support for
+    Docker images, Docker network binding, ingress/egress network policy
+    enforcement, and expanded Seccomp policy support.
+  - AI coding agent observability enabled by default with Claude, Cursor,
+    Gemini, and Codex support; Bluedev VS Code extension and Cobalt for secure
+    remote dev containers; Bluedev user identity management (Google Auth,
+    Microsoft Entra ID SSO) and LLM cost monitoring.
+- version: 26.08.0
+  date: null
+  url: https://docs.bluerock.io/release-notes/bluerock-26.08.0
+  highlights: []

@@ -1,0 +1,18 @@
+generated: '2026-07-18'
+method: searched
+source: https://pypi.org/project/bluerock/
+packages:
+- language: python
+  registry: pypi
+  name: bluerock
+  version: 0.2.0
+  license: Apache-2.0
+  url: https://pypi.org/project/bluerock/
+  repository: https://github.com/bluerock-io/bluerock
+  install: pip install bluerock[oss]
+  official: true
+  description: >-
+    BlueRock MCP Python Hooks — lightweight runtime security sensor for Python
+    MCP servers. Monitors MCP tool calls, resource access, session lifecycle,
+    module imports (SHA-256), subprocess execution, and network calls with zero
+    code changes, emitting structured NDJSON events.

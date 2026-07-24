@@ -1,0 +1,7 @@
+# Security Policy for bluerock.io
+# https://securitytxt.org/
+
+Contact: mailto:security@bluerock.io
+Preferred-Languages: en
+Canonical: https://bluerock.io/.well-known/security.txt
+Expires: 2027-02-25T00:00:00.000Z

@@ -1,0 +1,30 @@
+# Front Door AI Index — bluerock-security — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: bluerock-security
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: www.bluerock.io
+  final_host: www.bluerock.io
+  ownership: own
+  owner: bluerock-security
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 54
+  host_score: 54
+  density: 67.16
+  words: 804
+  tiers:
+    agentic: 15
+    core: 39
+    model: 0
+  ambiguous: 19
+  top_terms:
+    AI: 39
+    agent: 16
+    AI agent: 5
+    MCP: 5
+    agentic: 5
+    intelligence: 3
